@@ -1,0 +1,18 @@
+一、变量定义与输入输出
+1. 变量定义
+  // 先定义，再赋值
+  // var 变量名 类型 = "变量值"
+  var name = "枫枫"
+  var name1, name2, name3 string // 定义多个变量
+
+  var a1, a2 = "枫枫", "知道" // 定义多个变量并赋值
+  
+  a3, a4 := "枫枫", "知道" // 简短定义多个变量并赋值
+
+  var (
+  name     string = "枫枫"
+  userName        = "枫枫知道"
+)
+
+  const name string = "枫枫" // 常量定义就要赋值
+  
